@@ -11,7 +11,7 @@
     <?php
 
 # Open the database
-@ $db = new mysqli('64.119.131.183', 'CCHUNGCHMELI', 'S03472187', 'cchungchmeli');
+@ $db = new mysqli('64.119.131.183', '', '', '');
 if ($db->connect_error) {
   echo "could not connect: " . $db->connect_error;
   exit();
